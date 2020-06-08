@@ -63,9 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\sample\ShaderController.cs" />
-    <None Include="Assets\sample\sample.shader" />
-    <None Include="Assets\samle1\sample 1.shader" />
+    <Compile Include="Assets\基本色変更\ShaderController.cs" />
+    <None Include="Assets\基本色変更\sample.shader" />
+    <None Include="Assets\テクスチャー表示\sample4.shader" />
+    <None Include="Assets\水面\water.shader" />
+    <None Include="Assets\氷\sample2.shader" />
+    <None Include="Assets\バックライト\sample3.shader" />
+    <None Include="Assets\幾何学描画\aaa.shader" />
+    <None Include="Assets\半透明\sample 1.shader" />
+    <None Include="Assets\ブレンド\brend.shader" />
+    <None Include="Assets\ステンドグラス\sampl5.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/sato7/Documents/Documents/ShaderTraining/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

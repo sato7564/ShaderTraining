@@ -1,5 +1,9 @@
 ﻿Shader "Custom/toon"
 {
+    //ライティング用メソッドを作る
+    //メソッド名をUnityにつたえる
+    //StandardSurfaceOutputを使わないようにする
+
     Properties{
         _Color("Color", Color) = (1,1,1,1)
         _MainTex("Albedo (RGB)", 2D) = "white" {}
@@ -21,7 +25,10 @@
             };
 
             fixed4 _Color;
-
+            
+            //ライティング用のメソッド名はLightingから始める必要があります
+            //Lighting〇〇の〇〇部分をpragmaで宣言する
+            //Surfシェーダでライティングの工程をフックした場合はsurgの出力にはSurfaceOutputStandard型を使うことができないので↑で宣言する
             fixed4 LightingToonRamp(SurfaceOutput s, fixed3 lightDir, fixed atten)
             {
                 half d = dot(s.Normal, lightDir) * 0.5 + 0.5;

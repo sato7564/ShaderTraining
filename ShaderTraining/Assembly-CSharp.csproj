@@ -66,7 +66,9 @@
     <Compile Include="Assets\基本色変更\ShaderController.cs" />
     <None Include="Assets\基本色変更\sample.shader" />
     <None Include="Assets\ノイズ\ValueNoise.shader" />
+    <None Include="Assets\雪\Snow.shader" />
     <None Include="Assets\テクスチャー表示\sample4.shader" />
+    <None Include="Assets\溶ける\Dissolve.shader" />
     <None Include="Assets\水面\water.shader" />
     <None Include="Assets\氷\sample2.shader" />
     <None Include="Assets\バックライト\sample3.shader" />
@@ -75,6 +77,7 @@
     <None Include="Assets\トゥーン\toon.shader" />
     <None Include="Assets\粘性\lavar.shader" />
     <None Include="Assets\ノイズ\BlockNoise.shader" />
+    <None Include="Assets\旗\Flag.shader" />
     <None Include="Assets\ノイズ\PerlinNoize.shader" />
     <None Include="Assets\半透明\sample 1.shader" />
     <None Include="Assets\ブレンド\brend.shader" />

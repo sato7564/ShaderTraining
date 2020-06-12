@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ポイント描画\PointController.cs" />
     <Compile Include="Assets\基本色変更\ShaderController.cs" />
     <None Include="Assets\基本色変更\sample.shader" />
     <None Include="Assets\ノイズ\ValueNoise.shader" />
@@ -77,13 +78,18 @@
     <None Include="Assets\トゥーン\toon.shader" />
     <None Include="Assets\粘性\lavar.shader" />
     <None Include="Assets\ノイズ\BlockNoise.shader" />
+    <None Include="Assets\パルスノイズ\PulseNoise 1.shader" />
+    <None Include="Assets\アウトライン\outline.shader" />
     <None Include="Assets\旗\Flag.shader" />
+    <None Include="Assets\くりぬき\Cutout.shader" />
+    <None Include="Assets\半透明（改）\Clear.shader" />
     <None Include="Assets\ノイズ\PerlinNoize.shader" />
     <None Include="Assets\半透明\sample 1.shader" />
     <None Include="Assets\ブレンド\brend.shader" />
     <None Include="Assets\ノイズ\RandomNoize.shader" />
     <None Include="Assets\両面描画\culloff.shader" />
     <None Include="Assets\ステンドグラス\sampl5.shader" />
+    <None Include="Assets\ポイント描画\Point.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/sato7/Documents/Documents/ShaderTraining/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

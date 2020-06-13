@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 17b0bed26f72625468d8f317d478335b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wipeCircle: {fileID: 2100000, guid: cc2146f70cd08564fbb5fb00843340f4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -28,9 +28,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Density: 6
+    - _Density: 30
     - _Grid: 30.9
-    - _SpeedMax: 9.8
-    - _SpeedMin: 1.49
+    - _SpeedMax: 24.8
+    - _SpeedMin: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

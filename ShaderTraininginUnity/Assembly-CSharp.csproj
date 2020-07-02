@@ -71,6 +71,9 @@
     <None Include="Assets\フォン\Fon.shader" />
     <None Include="Assets\基本色変更\sample.shader" />
     <None Include="Assets\ノイズ\ValueNoise.shader" />
+    <None Include="Assets\蛇\Snake.shader" />
+    <None Include="Assets\燃える神\burn.shader" />
+    <None Include="Assets\エコロケーション\echorocation.shader" />
     <None Include="Assets\雪\Snow.shader" />
     <None Include="Assets\テクスチャー表示\sample4.shader" />
     <None Include="Assets\ワイプ\wipeCircle.shader" />
